@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="text" format="string" />
+    <attr name="textColor" format="color|reference" />
+    <attr name="fontType" format="enum">
+        <enum name="regular" value="0" />
+        <enum name="bold" value="1" />
+    </attr>
+
+    <declare-styleable name="CustomText">
+        <attr name="fontType" />
+
+    </declare-styleable>
+
+    <declare-styleable name="CustomButton">
+        <attr name="text" />
+        <attr name="textColor" />
+        <attr name="fontType" />
+    </declare-styleable>
+
+    <declare-styleable name="CustomImage">
+        <attr name="withBorder" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="CustomPage">
+        <attr name="sl_state" format="enum">
+            <enum name="loading" value="0" />
+            <enum name="content" value="1" />
+            <enum name="loading_with_content" value="3" />
+            <enum name="error" value="4" />
+            <enum name="empty" value="5" />
+            <enum name="none" value="6" />
+        </attr>
+        <attr name="sl_loading" format="reference" />
+        <attr name="sl_error" format="reference" />
+    </declare-styleable>
+
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="TextBoldMediumDefault" parent="Text">
+        <item name="android:textSize">@dimen/fnt_medium</item>
+        <item name="android:textColor">@color/textDef</item>
+        <item name="fontType">bold</item>
+    </style>
+
+    <style name="TextSmallDefault" parent="Text">
+        <item name="android:textSize">@dimen/fnt_small</item>
+        <item name="android:textColor">@color/textDef</item>
+    </style>
+
+</resources>

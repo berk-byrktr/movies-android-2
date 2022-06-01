@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/ViewMM"
+    android:background="@color/backgroundMain"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <com.movies.android.ui.customview.CustomText
+        android:id="@+id/tvMessage"
+        style="@style/TextBoldMediumDefault"
+        android:layout_marginLeft="@dimen/mrg_main"
+        android:layout_marginTop="@dimen/mrg_main"
+        android:layout_marginRight="@dimen/mrg_main"
+        android:gravity="center"
+        android:visibility="gone"
+        tools:text="Message"
+        tools:visibility="visible" />
+
+    <com.movies.android.ui.customview.CustomButton
+        android:id="@+id/btAction"
+        style="@style/ButtonActiveSmall"
+        android:layout_marginTop="@dimen/mrg_main"
+        android:gravity="center"
+        android:visibility="gone"
+        tools:text="ACTION"
+        tools:visibility="visible" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>

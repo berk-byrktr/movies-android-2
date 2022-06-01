@@ -1,0 +1,12 @@
+<resources>
+
+    <!--System-->
+    <string name="app_name">Movies Android</string>
+
+    <!--Buttons-->
+    <string name="bt_retry">RETRY</string>
+
+    <!-- Errors-->
+    <string name="err">An error was detected. We are examining this situation. Please try again.</string>
+
+</resources>

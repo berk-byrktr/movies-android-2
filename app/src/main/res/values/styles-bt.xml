@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="ButtonActiveSmall">
+        <item name="android:gravity">center</item>
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:layout_height">36dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:paddingStart">@dimen/pdd_main</item>
+        <item name="android:paddingEnd">@dimen/pdd_main</item>
+        <item name="android:textSize">@dimen/fnt_medium</item>
+    </style>
+
+</resources>

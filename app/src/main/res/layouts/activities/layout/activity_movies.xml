@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="viewStatePage"
+            type="com.movies.android.ui.customview.page.ViewStatePage" />
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/container"
+        style="@style/ViewMM"
+        android:background="@color/backgroundMain">
+
+        <FrameLayout
+            android:id="@+id/toolbar"
+            style="@style/ViewMW"
+            android:layout_height="@dimen/dim_toolbar"
+            android:background="@color/colorPrimary"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <com.movies.android.ui.customview.CustomImage
+                style="@style/ViewWW"
+                android:layout_height="@dimen/dim_toolbar_logo"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_logo" />
+
+        </FrameLayout>
+
+        <com.movies.android.ui.customview.page.CustomPage
+            android:id="@+id/cp"
+            style="@style/View00"
+            error="@{viewStatePage.error}"
+            state="@{viewStatePage.getState()}"
+            android:background="@color/backgroundMain"
+            android:clickable="true"
+            android:focusable="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/toolbar">
+
+            <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+                android:id="@+id/swipe_refresh_layout"
+                style="@style/ViewMM">
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recycler_view"
+                    style="@style/ViewMM"
+                    tools:itemCount="5"
+                    tools:listitem="@layout/row_movie_item" />
+
+            </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+        </com.movies.android.ui.customview.page.CustomPage>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

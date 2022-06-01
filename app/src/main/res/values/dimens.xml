@@ -1,0 +1,24 @@
+<resources>
+
+    <!-- Fonts-->
+    <dimen name="fnt_super_small">4sp</dimen>
+    <dimen name="fnt_small">12sp</dimen>
+    <dimen name="fnt_medium">14sp</dimen>
+
+    <!-- Sizes-->
+    <dimen name="dim_toolbar">65dp</dimen>
+    <dimen name="dim_toolbar_logo">20dp</dimen>
+    <dimen name="dim_button">48dp</dimen>
+    <dimen name="dim_rating_view">40dp</dimen>
+    <dimen name="dim_rating_stroke_height">4dp</dimen>
+
+    <!-- Margins-->
+    <dimen name="mrg_main">16dp</dimen>
+    <dimen name="mrg_4">4dp</dimen>
+    <dimen name="mrg_8">8dp</dimen>
+    <dimen name="mrg_24">24dp</dimen>
+
+    <!-- Paddings-->
+    <dimen name="pdd_main">16dp</dimen>
+
+</resources>

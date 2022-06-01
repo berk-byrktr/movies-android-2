@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- layout_state_loading.xml -->
+    <item name="customView_state_layout_loading" type="id" />
+
+</resources>

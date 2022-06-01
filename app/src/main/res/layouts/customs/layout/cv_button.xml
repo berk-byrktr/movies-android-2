@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <com.movies.android.ui.customview.CustomText
+        android:id="@+id/tv"
+        style="@style/ViewWW"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:minHeight="@dimen/dim_button"
+        tools:text="ACTION" />
+
+</merge>
